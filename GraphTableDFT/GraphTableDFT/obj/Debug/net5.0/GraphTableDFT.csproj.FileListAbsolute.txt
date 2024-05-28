@@ -1,0 +1,15 @@
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\bin\Debug\net5.0\GraphTableDFT.exe
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\bin\Debug\net5.0\GraphTableDFT.deps.json
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\bin\Debug\net5.0\GraphTableDFT.runtimeconfig.json
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\bin\Debug\net5.0\GraphTableDFT.runtimeconfig.dev.json
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\bin\Debug\net5.0\GraphTableDFT.dll
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\bin\Debug\net5.0\GraphTableDFT.pdb
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\obj\Debug\net5.0\GraphTableDFT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\obj\Debug\net5.0\GraphTableDFT.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\obj\Debug\net5.0\GraphTableDFT.AssemblyInfo.cs
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\obj\Debug\net5.0\GraphTableDFT.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\obj\Debug\net5.0\GraphTableDFT.dll
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\obj\Debug\net5.0\refint\GraphTableDFT.dll
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\obj\Debug\net5.0\GraphTableDFT.pdb
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\obj\Debug\net5.0\GraphTableDFT.genruntimeconfig.cache
+C:\Users\sasha\source\repos\GraphTableDFT\GraphTableDFT\obj\Debug\net5.0\ref\GraphTableDFT.dll
