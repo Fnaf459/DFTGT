@@ -18,6 +18,32 @@ class Graph
         adjacencyMatrix[destination, source] = 1;
     }
 
+    public void AddRandomEdges(int numberOfEdges)
+    {
+        Random random = new Random();
+
+        for (int i = 0; i < numberOfEdges; i++)
+        {
+            int source = random.Next(vertices);
+            int destination = random.Next(vertices);
+
+            AddEdge(source, destination);
+        }
+    }
+
+    public void PrintGraph()
+    {
+        Console.WriteLine("Матрица смежности графа:");
+        for (int i = 0; i < vertices; i++)
+        {
+            for (int j = 0; j < vertices; j++)
+            {
+                Console.Write(adjacencyMatrix[i, j] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+
     public void DFS(int start)
     {
         bool[] visited = new bool[vertices];
@@ -31,6 +57,8 @@ class Graph
         while (stack.Count > 0)
         {
             int current = stack.Pop();
+            Console.WriteLine("Извлечена " + current);
+
             Console.Write(current + " ");
 
             for (int i = 0; i < vertices; i++)
@@ -39,6 +67,7 @@ class Graph
                 {
                     visited[i] = true;
                     stack.Push(i);
+                    Console.WriteLine("Добавлена " + i);
                 }
             }
         }
@@ -48,15 +77,16 @@ class Graph
 
     static void Main(string[] args)
     {
-        Graph graph = new Graph(7);
+        int numberOfVertices = 10;
+        int numberOfEdges = 15;
 
-        graph.AddEdge(0, 1);
-        graph.AddEdge(0, 2);
-        graph.AddEdge(1, 3);
-        graph.AddEdge(1, 4);
-        graph.AddEdge(2, 5);
-        graph.AddEdge(2, 6);
+        Graph graph = new Graph(numberOfVertices);
 
-        graph.DFS(0);
+        graph.AddRandomEdges(numberOfEdges);
+
+        graph.PrintGraph();
+
+        int startVertex = 0;
+        graph.DFS(startVertex);
     }
 }
